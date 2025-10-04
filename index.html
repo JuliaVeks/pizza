@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="burger" id="burger">
+            <svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+                <path d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+                <path d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z"/>
+            </svg>
+        </div>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <nav class="menu" id="menu">
+            <div class="close">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+	</g>
+</g>
+</svg>
+            </div>
+            <ul>
+                <li class="menu-item">
+                    <a href="#">Pizza</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Drinks</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Delivery</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <img src="images/cart.png" alt="Cart">
+        </div>
+    </div>
+</header>
+
+<section class="main">
+    <div class="container">
+        <div class="main-info">
+            <h1 class="double-title">
+                The most delicious pizza in the world <span>at Pizza Cheff</span>
+            </h1>
+            <div class="main-advantages">
+                <div class="advantage">
+                    <div class="advantage-image">
+                        <img src="images/hop.png" alt="Hop">
+                    </div>
+                    <div class="advantage-text">
+                        <div class="advantage-title">The best dough</div>
+                        <div class="advantage-description">We make our dough only from the finest Italian flour of the
+                            highest quality
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advantage-image">
+                        <img src="images/kitchen-pack.png" alt="Chefs">
+                    </div>
+                    <div class="advantage-text">
+                        <div class="advantage-title">The best chefs</div>
+                        <div class="advantage-description">Our pizzas are prepared by the most professional Italian
+                            chefs
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advantage-image">
+                        <img src="images/seo.png" alt="Quality">
+                    </div>
+                    <div class="advantage-text">
+                        <div class="advantage-title">Quality guarantee</div>
+                        <div class="advantage-description">Our pizza has won numerous awards and recognition all over
+                            the world
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advantage-image">
+                        <img src="images/holidays.png" alt="Fresh food">
+                    </div>
+                    <div class="advantage-text">
+                        <div class="advantage-title">Exclusive recipes</div>
+                        <div class="advantage-description">We use recipes from the world’s leading pizza makers
+                        </div>
+                    </div>
+                </div>
+                <div class="main-action">
+                    <button class="btn" id="choose-pizza">Get Your Pizza</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-image">
+            <img src="images/pizza_big.png" alt="Pizza">
+        </div>
+    </div>
+</section>
+
+<section class="products">
+    <div class="container">
+        <h2 class="products-title">Choose your favorite pizza</h2>
+        <div class="products-items">
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/products/product1.png" alt="Pizza">
+                </div>
+                <div class="product-title">Meat Deluxe</div>
+                <div class="product-text">Pepperoni, onion, bacon, tomato paste, sausages, peppers, mushrooms</div>
+                <div class="product-action">
+                    <button class="btn btn-add-to-cart">Order now</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/products/product2.png" alt="Pizza2">
+                </div>
+                <div class="product-title">Seafood Premium</div>
+                <div class="product-text">Peppers, cheese, shrimp, squid, mussels, salmon</div>
+                <div class="product-action">
+                    <button class="btn btn-add-to-cart">Order now</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/products/product3.png" alt="Pizza3">
+                </div>
+                <div class="product-title">Bacon & Sausages</div>
+                <div class="product-text">Bacon, cheese, sausages, pineapple, tomato paste</div>
+                <div class="product-action">
+                    <button class="btn btn-add-to-cart">Order now</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/products/product4.png" alt="Pizza4">
+                </div>
+                <div class="product-title">Chicken Deluxe</div>
+                <div class="product-text">Chicken, pineapple, pepperoni cheese, pizza sauce, tomato paste</div>
+                <div class="product-action">
+                    <button class="btn btn-add-to-cart">Order now</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/products/product5.png" alt="Pizza5">
+                </div>
+                <div class="product-title">BBQ Premium</div>
+                <div class="product-text">BBQ pork, barbecue sauce, cheese, chicken, pizza sauce, chili sauce</div>
+                <div class="product-action">
+                    <button class="btn btn-add-to-cart">Order now</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/products/product6.png" alt="Pizza6">
+                </div>
+                <div class="product-title">Double Pepperoni</div>
+                <div class="product-text">Pepperoni, cheese, two types of sausage: fried and boiled</div>
+                <div class="product-action">
+                    <button class="btn btn-add-to-cart">Order now</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/products/product7.png" alt="Pizza7">
+                </div>
+                <div class="product-title">Chicken Trio</div>
+                <div class="product-text">Fried chicken, stewed chicken, chicken nuggets, peppers, cheese</div>
+                <div class="product-action">
+                    <button class="btn btn-add-to-cart">Order now</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/products/product8.png" alt="Pizza8">
+                </div>
+                <div class="product-title">Cheese Pizza</div>
+                <div class="product-text">Džiugas cheese, blue cheese, mozzarella, secret cheese blend</div>
+                <div class="product-action">
+                    <button class="btn btn-add-to-cart">Order now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="order">
+    <div class="container">
+        <div class="order-text">
+            <div class="order-text-title double-title">
+                <span>Stop thinking!</span>
+                Delivery within 30 minutes
+            </div>
+            <div class="order-text-message">We guarantee delivery of your pizza within 30 minutes of placing your order.
+                If we are even 1 minute late – you get your entire order for free plus a discount voucher for your next
+                order. We take pride in our service and will do everything to make sure our customers are satisfied and
+                never left hungry!
+            </div>
+        </div>
+        <div class="order-form">
+            <input type="text" class="order-input" id="product-input" placeholder="Pizza">
+            <input type="text" class="order-input" id="address-input" placeholder="Address">
+            <input type="text" class="order-input" id="phone-input" placeholder="Phone number">
+            <button class="btn create-order">Order now</button>
+        </div>
+        <div class="order-image">
+            <img src="images/Pizza_order.png" alt="Order">
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="rights">All rights reserved</div>
+    </div>
+</footer>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
